@@ -1,10 +1,10 @@
 import "./styles.css";
-import TimerClass from "./useEffect/TimerClass";
+import Timer from "./useEffect/Timer";
 
 export default function App() {
   return (
     <div className="App">
-      <TimerClass />
+      <Timer />
     </div>
   );
 }
