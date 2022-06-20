@@ -1,13 +1,10 @@
 import "./styles.css";
-import CounterClass from "./useState/CounterClass";
-import Counter from "./useState/Counter";
+import TimerClass from "./useEffect/TimerClass";
 
 export default function App() {
   return (
     <div className="App">
-      <CounterClass />
-      <hr />
-      <Counter />
+      <TimerClass />
     </div>
   );
 }
