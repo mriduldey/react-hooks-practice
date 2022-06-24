@@ -24,7 +24,7 @@ export default function Timer2() {
       <h2> Timer With Function </h2>
       <div>{count}s</div>
       <button onClick={start}>Start</button>
-      <button onClick={stop}>Stop</button>
+      <button onClick={stop}>Pause</button>
       <button onClick={reset}>Reset</button>
     </>
   );
