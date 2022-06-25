@@ -1,10 +1,10 @@
 import "./styles.css";
-import ContextProvider2 from "./useContext/ContextProvider2";
+import UseReducerCounter from "./useReducer/UseReducerCounter";
 
 export default function App() {
   return (
     <div className="App">
-      <ContextProvider2 />
+      <UseReducerCounter />
     </div>
   );
 }
