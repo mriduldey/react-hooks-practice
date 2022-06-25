@@ -1,10 +1,10 @@
 import "./styles.css";
-import DataFetchWithButton from "./useEffect/DataFetching/DataFetchWithButton";
+import ContextProvider2 from "./useContext/ContextProvider2";
 
 export default function App() {
   return (
     <div className="App">
-      <DataFetchWithButton />
+      <ContextProvider2 />
     </div>
   );
 }
