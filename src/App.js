@@ -1,10 +1,10 @@
 import "./styles.css";
-import UseReducerCounter2 from "./useReducer/UseReducerCounter2";
+import MultipleUseReducer3 from "./useReducer/MultipleUseReducer3";
 
 export default function App() {
   return (
     <div className="App">
-      <UseReducerCounter2 />
+      <MultipleUseReducer3 />
     </div>
   );
 }
