@@ -1,10 +1,10 @@
 import "./styles.css";
-import UseReducerDataFetch from "./useReducer/UseReducerDataFetch";
+import FocusInput from "./useRef/FocusInput";
 
 export default function App() {
   return (
     <div className="App">
-      <UseReducerDataFetch />
+      <FocusInput />
     </div>
   );
 }
