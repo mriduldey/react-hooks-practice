@@ -13,7 +13,6 @@ export default function ComponentE1() {
             </FavouriteHeroContext.Consumer>
           )}
         </UserContext.Consumer>
-        {}
       </div>
     </>
   );

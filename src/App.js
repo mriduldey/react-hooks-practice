@@ -1,10 +1,10 @@
 import "./styles.css";
-import MultipleUseReducer3 from "./useReducer/MultipleUseReducer3";
+import MultiCounterMultiComp4 from "./useContext/MultiCounterMultiComp4";
 
 export default function App() {
   return (
     <div className="App">
-      <MultipleUseReducer3 />
+      <MultiCounterMultiComp4 />
     </div>
   );
 }
