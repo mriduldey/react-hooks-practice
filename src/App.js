@@ -1,10 +1,12 @@
 import "./styles.css";
-import FocusInput from "./useRef/FocusInput";
+import DocTitleOne from "./CustomHooks/DocTitleCounter/DocTitleOne";
+import DocTitleTwo from "./CustomHooks/DocTitleCounter/DocTitleTwo";
 
 export default function App() {
   return (
     <div className="App">
-      <FocusInput />
+      <DocTitleOne />
+      <DocTitleTwo />
     </div>
   );
 }
